@@ -26,7 +26,7 @@ class UserController extends Controller
         ]);
     }
 
-    public function show_main(){
+    public function show_main(){ 
         return view('mainPage.welcome',[
             'finishJobs'=>Job::where('status_id',4)->latest()->take(3)->get(),
         ]);

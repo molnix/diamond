@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\AuthRequest;
 use App\Http\Requests\RegRequest;
-use App\Mail\emailVerifiedMail;
+use App\Mail\EmailVerifiedMail;
 use App\VerifiedEmail;
 use App\User;
 use Illuminate\Support\Facades\URL;
@@ -46,7 +46,7 @@ class LoginController extends Controller
             'email_verified_token'=>$token,
         ]);
         $data=URL::temporarySignedRoute('email_verified', now()->addMinutes(10), ['token' => $token]);
-        Mail::to($request['email'])->send(new emailVerifiedMail($data));
+        Mail::to($request['email'])->send(new EmailVerifiedMail($data));
         return redirect(route('login'))->withErrors(['errorAuthMessage'=>"Вам на почту отправлено письмо с подтверждением email"]);
     }
 
