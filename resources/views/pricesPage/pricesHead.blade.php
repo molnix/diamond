@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="{{asset('styles/prices.css')}}">
     @include('linkHead')
 
-    <title>Алмаз</title>
+    <title>Алмаз прайс лист</title>
 </head>
 <body id="Body" class="body">

@@ -8,6 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{asset('styles/userProfile.css')}}">
     @include('linkHead')
-    <title>Алмаз</title>
+    <title>Алмаз профиль</title>
 </head>
 <body id="Body" class="body">

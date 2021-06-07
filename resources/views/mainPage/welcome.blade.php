@@ -8,16 +8,10 @@
     <div class="slider">
         <div class="slider__items">
             <div class="slider__item">
-                <img class="img-fluid" src="{{asset('images/logo2.png')}}" alt="c1">
+                <img class="img-fluid" src="{{asset('images/one.png')}}" alt="c1">
             </div>
             <div class="slider__item">
-                <img class="img-fluid" src="{{asset('images/logo.png')}}" alt="c2">
-            </div>
-            <div class="slider__item">
-                <img class="img-fluid" src="{{asset('images/close.png')}}" alt="c3">
-            </div>
-            <div class="slider__item">
-                <img class="img-fluid" src="{{asset('images/diamond.png')}}" alt="c4">
+                <img class="img-fluid" src="{{asset('images/two.png')}}" alt="c2">
             </div>
         </div>
         <p class="slider__control slider__control_prev"></p>
@@ -31,53 +25,53 @@
                 <div class="service-block_info_img">
                     <img src="{{asset("images/ring.svg")}}" alt="Нет изображения">
                 </div>
-                <h2>Заголовок</h2>
+                <h2>Работа с кольцами</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Увеличение, уменьшение, замена камней, ремонт и правка.
                 </p>
             </div>
         </div>
         <div class="service-block">
             <div class="service-block_info">
                 <div class="service-block_info_img">
-                    <img src="{{asset("images/ring.svg")}}" alt="Нет изображения">
+                    <img src="{{asset("images/welding.svg")}}" alt="Нет изображения">
                 </div>
-                <h2>Заголовок</h2>
+                <h2>Пайка</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Пайка изломов цепи, кольца, серьги, браслетов.
                 </p>
             </div>
         </div>
         <div class="service-block">
             <div class="service-block_info">
                 <div class="service-block_info_img">
-                    <img src="{{asset("images/ring.svg")}}" alt="Нет изображения">
+                    <img src="{{asset("images/buffing.svg")}}" alt="Нет изображения">
                 </div>
-                <h2>Заголовок</h2>
+                <h2>Чистка и полировка</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Колец сложной формы, серьги, цепи.
                 </p>
             </div>
         </div>
         <div class="service-block">
             <div class="service-block_info">
                 <div class="service-block_info_img">
-                    <img src="{{asset("images/ring.svg")}}" alt="Нет изображения">
+                    <img src="{{asset("images/circular-refresh-arrows.svg")}}" alt="Нет изображения">
                 </div>
-                <h2>Заголовок</h2>
+                <h2>Замена</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Пружины в замке карабин, шпрингельного замка.
                 </p>
             </div>
         </div>
         <div class="service-block">
             <div class="service-block_info">
                 <div class="service-block_info_img">
-                    <img src="{{asset("images/ring.svg")}}" alt="Нет изображения">
+                    <img src="{{asset("images/other.svg")}}" alt="Нет изображения">
                 </div>
-                <h2>Заголовок</h2>
+                <h2>Другие услуги</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   Крепление вставки драгоценных камней, проверка бриллиантов.
                 </p>
             </div>
         </div>

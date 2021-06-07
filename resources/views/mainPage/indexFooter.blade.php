@@ -10,7 +10,7 @@
         </div>
         <div class="social-info">
             <h2>Мы в соцсетях:</h2>
-            <p>VK</p>
+            <p><a href="https://vk.com/almaz_bis">VK</a></p>
         </div>
     </div>
     <div class="footer_requisites">

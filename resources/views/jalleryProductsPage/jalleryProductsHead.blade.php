@@ -7,6 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('styles/jalleryProducts.css')}}">
     @include('linkHead')
-    <title>Алмаз</title>
+    <title>Алмаз галерея изделий</title>
 </head>
 <body id="Body" class="body">

@@ -10,7 +10,7 @@
             <label for="MessageFile">Прикрепить файл</label>
             <input id="MessageFile" type="file" name="file" hidden>
         </form>
-        <button id="BtnCreateMessage" class="btn">Отправить</button>
+        <button id="BtnCreateMessage" form="FormCreateMessage" class="btn">Отправить</button>
         <div class="alert alert-danger">
             <ul id="ChatAllert">
                 @if ($errors->any())

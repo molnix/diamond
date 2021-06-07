@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="{{asset('styles/product.css')}}">
     @include('linkHead')
     <script src="{{asset('js/mainPage.js')}}" defer></script>
-    <title>Алмаз</title>
+    <title>Алмаз {{$product->name}}</title>
 </head>
 <body id="Body" class="body">

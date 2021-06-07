@@ -7,6 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('styles/passwordReset.css')}}">
     @include('linkHead')
-    <title>Алмаз</title>
+    <title>Алмаз сброс пароля</title>
 </head>
 <body id="Body" class="body">

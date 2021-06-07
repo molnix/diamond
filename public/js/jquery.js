@@ -46,7 +46,8 @@ $(document).ready(function (){
         $('#Body').removeClass('lock');
     });
 
-    $('#BtnCreateMessage').click(function (){
+    $('#FormCreateMessage').on('submit',function (e){
+        e.preventDefault();
         if (window.FormData === undefined) {
             alert('В вашем браузере FormData не поддерживается')
         }

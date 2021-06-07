@@ -54,7 +54,7 @@
 .img-fluid{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 /* стили для кнопок "вперед" и "назад" */
 .slider__control {

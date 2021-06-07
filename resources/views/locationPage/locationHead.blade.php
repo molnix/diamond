@@ -7,6 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('styles/location.css')}}">
     @include('linkHead')
-    <title>Алмаз</title>
+    <title>Алмаз карта</title>
 </head>
 <body id="Body" class="body">
